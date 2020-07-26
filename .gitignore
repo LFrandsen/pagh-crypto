@@ -1,0 +1,15 @@
+# Intellij
+.idea/
+*.iml
+
+# Generated files
+generted /
+
+# Gradle
+.gradle/
+build/
+out/
+/storage/
+
+# Other:
+logs/

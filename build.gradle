@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'dk.pagh'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+
+dependencies {
+    implementation group: 'org.projectlombok',    name: 'lombok',                     version: '1.18.12'
+    implementation group: 'javax.websocket',      name: 'javax.websocket-api',        version: '1.1'
+    implementation group: 'javax.websocket',      name: 'javax.websocket-client-api', version: '1.1'
+    implementation group: 'com.google.code.gson', name: 'gson',                       version: '2.7'
+    implementation group: 'com.neovisionaries',        name: 'nv-websocket-client',        version: '2.10'
+    implementation group: 'com.google.guava',          name: 'guava',                     version: '29.0-jre'
+    
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
