@@ -9,7 +9,6 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception  {
-        //new KrakenGetCurrencyPairGetter().findValidCurrencyPairs();
         val currencyPairs  = new KrakenGetCurrencyPairGetter().getCurrencyPairs();
         val cryptoBus      = new EventBus();
         val viewBus        = new EventBus();
